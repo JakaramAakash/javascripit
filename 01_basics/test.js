@@ -20,3 +20,19 @@ const product=
       
        console.timeLog()
        console.timeEnd();
+       let Name="Ravi"
+       let age=45
+       console.log(String(age)+"age"+54+age)
+       let goal
+       let job="worker"
+       console.log(Number(job))
+       let aim=null
+       console.log(Number(aim))
+       let happy=false
+       happy=Number(happy);console.log(happy)
+       console.table([Name,age,happy,job,goal,aim,typeof happy]);
+       console.table([typeof aim,typeof goal])
+       let k="45"
+       let x=Number(k)+100;
+       let y=Symbol(k);console.log(y)
+       
