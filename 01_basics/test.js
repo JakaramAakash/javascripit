@@ -1,4 +1,4 @@
-console.time()
+/*console.time()
 console.log("Aakash shiva")
 const accountId=4567
 let email="jakaramaakash@gmail.com"
@@ -33,6 +33,28 @@ const product=
        console.table([Name,age,happy,job,goal,aim,typeof happy]);
        console.table([typeof aim,typeof goal])
        let k="45"
+       let n=0
+       let j=1
+       console.log(Boolean(n)+" "+Boolean(j))
+       console.log(Boolean(k))
        let x=Number(k)+100;
-       let y=Symbol(k);console.log(y)
-       
+       let y=Symbol(k);console.log(y) */
+       //browser gives string value,which is to be converted into number,boolean,object,array...
+
+       //***********************************operations********************************
+      /*arithmetic let a=5
+       let b=5
+       console.table([a**b,a+b,a-b,a/b])
+       console.log(1+"3"+34)
+       console.log((3+5.6)/6+(56-5)*5)
+       console.log(true+true-false)
+       console.log(true)
+       n1=n2=n3=455
+       console.log(n1,n2,n3,n2,n1,"hello guys")
+       //prefix postfix
+       let x=45
+       console.log(++x,x,x++,x)*/
+       //comparision
+       //console.log(2>=1)
+      // console.log("4">=1);console.log(null>=true);console.log(true>false);console.log(null==0);console.log(undefined==0);console.log(null==undefined)
+      console.log(null===0);console.log(undefined===0);console.log(null===undefined)
