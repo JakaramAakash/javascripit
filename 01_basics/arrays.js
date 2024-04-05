@@ -1,4 +1,4 @@
-const arr=[1,2,3,1,3,4]
+/*const arr=[1,2,3,1,3,4]
 const ar=["shiva","ravi","narayan"]
 ar.push(5)
 ar.pop()
@@ -24,3 +24,4 @@ let b1=new String("eeshwara");console.log(b1.slice(1,4))
 b2=b1.slice(1,7)//can be stored in another array
 console.log(b2)
 let b="Shiva";console.log(b.slice(1,4))
+*/
