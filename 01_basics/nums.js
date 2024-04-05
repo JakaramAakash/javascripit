@@ -25,4 +25,10 @@ console.log(Math.max(3,4,23,12,4))
 console.log(Math.min(45,34,2,4,2))*/
 console.log(Math.random())//values between 0 and 1
 //for dice game
-console.log((Math.random()*100)/7)
+console.log(((Math.random()*100)%7).toFixed(0))
+//between values
+const max=20
+const min=10
+console.log((Math.floor(Math.random()*(max-min+1)))+min)
+console.log(Math.floor(Math.random()*(20-10+1))+10)//gives from 10 to 20
+console.log(Math.abs(-1.2))
