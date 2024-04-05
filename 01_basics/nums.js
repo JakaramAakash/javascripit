@@ -24,3 +24,5 @@ console.log(Math.floor(5.6));console.log(Math.ceil(4.6))
 console.log(Math.max(3,4,23,12,4))
 console.log(Math.min(45,34,2,4,2))*/
 console.log(Math.random())//values between 0 and 1
+//for dice game
+console.log((Math.random()*100)/7)
