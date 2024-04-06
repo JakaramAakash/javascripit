@@ -46,3 +46,6 @@ price:"999"
 //course.cinstructor
 const {cinstructor:ins }=course
 console.log(ins)
+const {price:p}=course
+console.log(p)
+//Javascript object Notation(used to text format data,which is used send and receive data from server in api.As it is in text format,can be easily converted into js objects(parse())and js objects to string(.stringify()))
