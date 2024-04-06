@@ -13,7 +13,7 @@ console.log(user.welcomeMessage())
 //GLOBAL CONTEXT
 console.log(this)
 //Initially the Browser is the only Engine,later we built console to Run js LIKE Node,deno...So browser console is different from this
-//Browser global object is Window(handle events,forms...)
+//Browser global object(this value=object) is Window(handle events,forms...)
 */
 /*function Tea(){
     let username="Aakash"
