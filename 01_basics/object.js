@@ -66,4 +66,23 @@ console.log(y)//****************
 const ar=[1,2,3,4];const a2=["aakas",4,5,3,1];const a3=[4,5,"Aa",1]
 const ar4=[1,2,3,4,...ar,...a2,...a3]
 console.log(ar4)
-console.log(ar4.flat(Infinity))
+console.log(ar4.flat(Infinity))//***********Objects***//DATABASE***********
+export const users = [
+    {
+        id: 1,
+        email: "jj@gmail.com"
+    },
+    {
+        id: 15,
+        email: "jh@gmail.com"
+    },
+    {
+        id: 16,
+        email: "jy@gmail.com"
+    },
+    {
+        id: 17,
+        email: "ji@gmail.com"
+    }
+]
+
