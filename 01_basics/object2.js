@@ -1,4 +1,5 @@
 
+//array of Objects
 const users=[
     {
         id:2,
@@ -33,6 +34,15 @@ console.log(us1.hasOwnProperty("rank"))
 console.log(us1.hasOwnProperty("isLoggedIn"))
  us1.a=function(){
 console.log(this.rank)
-return 1
+return 0
 }
 console.log(us1.a())
+const course={
+name:"js",
+cinstructor: "Aakash",
+price:"999"
+}
+//OBJECT DESTRUCTURING(It is to destructure keys in object to access values in it only with keys as{key_name} instead of object_name.key_name,Mostly used in Reactjs)
+//course.cinstructor
+const {cinstructor:ins }=course
+console.log(ins)
