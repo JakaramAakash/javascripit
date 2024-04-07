@@ -38,11 +38,11 @@ console.log(add(3,4))
 const sub=(n1,n2)=> (n1-n2)//Implicit Return 
 console.log(sub(56,43))*/
 //Type1
-/*const hel=(n1,n2)=>(username="Aakash")//not returning anything
-console.log(hel())
+/*const hel=(n1,n2)=>(username="Aakash")
+console.log(hel())//Aakash
 //Type2
 const hell=(n1,n2)=>(username="Shiva")
-console.log(hell())
+console.log(hell())//Shiva
 //Type3
 const hello=(n1,n2)=>({username:"Shiva"})
 console.log(hello())*/
